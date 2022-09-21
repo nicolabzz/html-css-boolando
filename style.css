@@ -21,7 +21,7 @@ header{
     padding: 0 5px;
 }
 
-.info-categories > a{
+.info-categories > a, .footer-section-left > a{
     color: white;
     text-decoration: none;
 }
@@ -64,5 +64,35 @@ main{
 /* ---- FOOTER ---- */
 footer{
     border: 2px solid red;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(26,26,26,255);
+    height: 110px;
+    color: white;
+}
+
+.footer-section{
+    border: 2px solid blue;
+    display: flex;
+    width: 75%;
+    height: 100%;
+    padding: 15px 5px;
+}
+
+.footer-section-left{
+    border: 2px solid bisque;
+    width: 50%;
+    height: 100%;
+}
+
+h2, h4{
+    margin-bottom: 10px;
+}
+
+.footer-section-right{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid bisque;
+    width: 50%;
+    height: 100%;
 }
